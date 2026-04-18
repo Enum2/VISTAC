@@ -1,0 +1,23 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1436045169830322,
+      "train_box_loss": 0.9619332551956177,
+      "train_score_loss": 0.7266849279403687,
+      "mean_iou": 0.029644478112459183,
+      "precision_20": 0.020202020202020204,
+      "success_auc": 0.05916304886341095,
+      "mean_iqa": 0.4004257321357727,
+      "qp": 0.020202020202020204,
+      "checkpoint": "D:\\vistac\\outputs\\checkpoints\\tiny_siamese_epoch01_iou0.0296_qp0.0202.pt",
+      "prediction_file": "D:\\vistac\\outputs\\predictions\\tiny_siamese_epoch01_val_predictions.json"
+    }
+  ],
+  "summary": {
+    "best_qp": 0.020202020202020204,
+    "best_checkpoint": "D:\\vistac\\outputs\\checkpoints\\tiny_siamese_epoch01_iou0.0296_qp0.0202.pt",
+    "epochs": 1,
+    "condition": "all"
+  }
+}

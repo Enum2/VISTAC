@@ -1,0 +1,26 @@
+{
+  "tiny_siamese_attn": {
+    "best_qp": 0.020202020202020204,
+    "best_checkpoint": "D:\\vistac\\outputs\\checkpoints\\tiny_siamese_attn_epoch01_iou0.0295_qp0.0202.pt",
+    "epochs": 1,
+    "condition": "all"
+  },
+  "tiny_siamese": {
+    "best_qp": 0.020202020202020204,
+    "best_checkpoint": "D:\\vistac\\outputs\\checkpoints\\tiny_siamese_epoch01_iou0.0296_qp0.0202.pt",
+    "epochs": 1,
+    "condition": "all"
+  },
+  "mixformer_lite": {
+    "best_qp": 0.020202020202020204,
+    "best_checkpoint": "D:\\vistac\\outputs\\checkpoints\\mixformer_lite_epoch01_iou0.0295_qp0.0202.pt",
+    "epochs": 1,
+    "condition": "all"
+  },
+  "mixformer_lite_large": {
+    "best_qp": 0.020202020202020204,
+    "best_checkpoint": "D:\\vistac\\outputs\\checkpoints\\mixformer_lite_large_epoch01_iou0.0297_qp0.0202.pt",
+    "epochs": 1,
+    "condition": "all"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0534380674362183,
+      "train_box_loss": 0.8820347189903259,
+      "train_score_loss": 0.6856133937835693,
+      "mean_iou": 0.029461471363902092,
+      "precision_20": 0.020202020202020204,
+      "success_auc": 0.058682043105363846,
+      "mean_iqa": 0.4004257321357727,
+      "qp": 0.020202020202020204,
+      "checkpoint": "D:\\vistac\\outputs\\checkpoints\\mixformer_lite_epoch01_iou0.0295_qp0.0202.pt",
+      "prediction_file": "D:\\vistac\\outputs\\predictions\\mixformer_lite_epoch01_val_predictions.json"
+    }
+  ],
+  "summary": {
+    "best_qp": 0.020202020202020204,
+    "best_checkpoint": "D:\\vistac\\outputs\\checkpoints\\mixformer_lite_epoch01_iou0.0295_qp0.0202.pt",
+    "epochs": 1,
+    "condition": "all"
+  }
+}

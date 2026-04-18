@@ -1,0 +1,39 @@
+{
+  "sequence": "Bird2",
+  "dataset": "HAZY",
+  "split": "val",
+  "weather": "HAZY",
+  "frames_processed": 2,
+  "restoration": {
+    "mean_contrast_gain": 20.575974886551478,
+    "mean_sharpness_gain": 352.0398907661438,
+    "mean_entropy_gain": 1.2362174987792969
+  },
+  "detection": {
+    "avg_original_detections": 4.0,
+    "avg_restored_detections": 4.5,
+    "avg_fused_detections": 5.0,
+    "mean_fused_confidence": 0.5638733088970185,
+    "fusion_gain_vs_best_single": 0.5
+  },
+  "tracking": {
+    "unique_tracks": 5.0,
+    "avg_track_length": 2.0,
+    "longest_track_length": 2.0,
+    "mean_track_confidence": 0.5638733088970185,
+    "mean_track_motion": 1.859946519499503
+  },
+  "expected_paper_metrics": {
+    "avg_qp": 0.028,
+    "avg_iou": 0.124,
+    "success_rate_at_0_5": 0.031,
+    "success_rate_at_20": 0.035,
+    "avg_ote": 190.0
+  },
+  "expected_ablation": {
+    "yolov8_only": 0.015,
+    "yolov8_plus_botsort": 0.021,
+    "gan_plus_yolov8": 0.024,
+    "full_model": 0.028
+  }
+}
