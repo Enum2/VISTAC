@@ -1,4 +1,4 @@
-## FINANL MODEL IN final_model folder
+## FINAL MODEL IN final_model folder
 
 
 # ExtremeTrack: Restoration-Assisted MixFormer Tracker
